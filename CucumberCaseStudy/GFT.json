@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-07T09:26:23.521Z",
+        "line": 5,
+        "name": "testing herkuapp",
+        "description": "",
+        "id": "testing-heroku;testing-herkuapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1429400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on home page",
+            "match": {
+              "location": "CucumberCaseStudy.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "CucumberCaseStudy.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is logged in",
+            "match": {
+              "location": "CucumberCaseStudy.user_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functionalTest"
+          },
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "testing heroku",
+    "description": "",
+    "id": "testing-heroku",
+    "keyword": "Feature",
+    "uri": "file:Features/caseStudy.feature",
+    "tags": [
+      {
+        "name": "@functionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
